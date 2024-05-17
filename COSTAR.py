@@ -12,7 +12,7 @@ import pandas as pd
 
 
 
-df= pd.read_csv('MLCQCodeSmellSamples.csv')  #Input csf file which contain link of the smelly and non-smelly java source code with their labels.
+df= pd.read_csv('Input_Dataset.csv')  #Input csf file which contain link of the smelly and non-smelly java source code with their labels.
 
 
 # -------------data frame cleaning like removing unnecesssary columns-----------------------
@@ -242,4 +242,4 @@ for index,row in df_dir_path_name.iterrows():
 
 
 # # df_dir_path_name1.to_csv(output_file)
-df_dir_path_name.to_csv("CSV_ASTBert_Output.csv")  #File which store the vector with respect to the each source file.
+df_dir_path_name.to_csv("CSV_ASTBer_Output.csv")  #File which store the vector with respect to the each source file.
