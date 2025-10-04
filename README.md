@@ -13,5 +13,6 @@ python COSTAR.py
 The model_for_prediction.py file contains all the models used in the paper. You just need to change the name of the input dataset and run the model_for_prediction.py file.
 
 **For the Comparision with state of the art**
+
 The dictionary ComparisionWithStateOfTheArt contains implementations of baseline models from prior research on code smell detection and refactoring.
 These implementations were re-created for comparison with our proposed method COSTAR.
